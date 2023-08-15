@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showdown!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+            
+                <img src="Media/pokemonshowdownbeta.png" alt="">
+                <nav>
+                    
+                        <a><button type=""><i class="fa-sharp fa-solid fa-house"><span>Home</span></i></button></li>
+                        
+                        <a><button type=""><i class="fa-sharp fa-solid fa-plus"></i></button></li>
+                        <div class="derecha">
+                        <a><button type="input">Choose name</button></li>
+                        <a><button type=""><i class="fa-solid fa-volume-off"></i></button></li>
+                        <a><button type=""><i class="fa-sharp fa-solid fa-gear"></i></button></li>
+                        </div>
+                </nav>
+            </div>
+            <div class="maintabbarbottom"></div>
+    </header>
+    <div class="mainmenuwrapper">
+    <div class="leftmenu">
+    <div class="mainmenu">
+        <div class="menugroup">
+    <form class="battleform" data-search="1">
+        <p>
+        <label class="label">Format:</label>
+        <button class="select formatselect" name="format" value="gen9randombattle">[Gen 9] Random Battle</button></p><p><label class="label">Team:</label><button class="select teamselect preselected" name="team" value="random" disabled=""><strong>Random team</strong><small><span class="picon" style="float:left;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12) no-repeat scroll -0px -0px"></span><span class="picon" style="float:left;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12) no-repeat scroll -0px -0px"></span><span class="picon" style="float:left;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12) no-repeat scroll -0px -0px"></span><span class="picon" style="float:left;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12) no-repeat scroll -0px -0px"></span><span class="picon" style="float:left;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12) no-repeat scroll -0px -0px"></span><span class="picon" style="float:left;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12) no-repeat scroll -0px -0px"></span></small></button></p><p><label class="label" name="partner" style="display:none">Partner: <input name="teammate"></label></p><p><label class="checkbox"><input type="checkbox" name="private" checked=""> <abbr title="You can still invite spectators by giving them the URL or using the /invite command">Don't allow spectators</abbr></label></p><p><button class="button mainmenu1 big" name="search"><strong>Battle!</strong><br><small>Find a random opponent</small></button></p></form>
+     </div>
+        <div class="menugroup">
+            <p><button class="button mainmenu2" name="joinRoom" value="teambuilder">Teambuilder</button></p>
+            <p><button class="button mainmenu3" name="joinRoom" value="ladder">Ladder</button></p>
+            <p><button class="button mainmenu4" name="send" value="/smogtours">Tournaments</button></p>
+        </div>
+        <div class="menugroup">
+            <p><button class="button mainmenu4 onlineonly" name="joinRoom" value="battles">Watch a battle</button></p>
+            <p><button class="button mainmenu3 onlineonly" name="finduser">Find a user</button></p>
+        </div>
+    </div>       
+    </div>
+</div>
+</body>
+</html>

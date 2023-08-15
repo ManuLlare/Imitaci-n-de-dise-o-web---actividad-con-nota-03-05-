@@ -1,0 +1,144 @@
+body {
+    background-image: url(Media/irie.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+}
+header {
+    clear: both;
+    content: "";
+    width: 100%;
+       background: rgba(255, 255, 255, 0.5);
+    backdrop-filter:blur(1px);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.derecha{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.maintabbarbottom{
+    color: #fff;
+    font-size: 11pt;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 6px;
+    background: #f8f8f8;
+    border: solid 1px #aaa;
+    border-left: 0;
+    margin: -1px 0 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.battleform{
+    font-size: 11pt;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    width: 230px;
+    text-align: left;
+    margin: 0 auto;
+}
+.mainmenuwrapper{
+    position: relative;
+    min-height: 100%;
+}
+.leftmenu{
+    color: #fff;
+    font-size: 11pt;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    padding: 40px 0 0;
+    width: 324px;
+}
+.mainmenu{
+    padding: 0 0 51px;
+}
+.menugroup .button.big{
+    width: 230px;
+    height: 50px;
+    padding: 0;
+    font-size: 14pt;
+}
+body .button.mainmenu1 {
+    background: linear-gradient(to bottom,  hsl(318.87640449438203,35.177865612648226%,72%),  hsl(318.87640449438203,35.177865612648226%,52%));
+    border-color: hsl(318.87640449438203,35.177865612648226%,40%);
+    color: white;   
+}
+.menugroup{
+    display: block;
+    padding: 10px 0;
+    margin: 0 auto 30px;
+    max-width: 270px;
+    border-radius: 20px;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    text-align: center;
+}
+.button.mainmenu2{
+    touch-action: manipulation;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 12pt;
+    display: inline-block;
+    padding: 5px 7px 3px;
+    width: 200px;
+    text-shadow: 0 -1px 0 #0f1924;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2),inset 0 1px 1px rgba(255,255,255,.8);
+    color: #fff;
+    border: solid 1px #aaa;
+    background: linear-gradient(to bottom,  hsl(216,46%,72%),  hsl(216,46%,52%));
+    border-color: hsl(216,46%,40%);
+}
+.button.mainmenu3{
+    touch-action: manipulation;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 12pt;
+    display: inline-block;
+    padding: 5px 7px 3px;
+    width: 200px;
+    text-shadow: 0 -1px 0 #0f1924;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2),inset 0 1px 1px rgba(255,255,255,.8);
+    color: #fff;
+    border: solid 1px #aaa;
+    background: linear-gradient(to bottom,  hsl(221.25,32.25806451612904%,72%),  hsl(221.25,32.25806451612904%,52%));
+    border-color: hsl(221.25,32.25806451612904%,40%);
+}
+.button.mainmenu4{
+    touch-action: manipulation;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 12pt;
+    display: inline-block;
+    padding: 5px 7px 3px;
+    width: 200px;
+    text-shadow: 0 -1px 0 #0f1924;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2),inset 0 1px 1px rgba(255,255,255,.8);
+    color: #fff;
+    border: solid 1px #aaa;
+    background: linear-gradient(to bottom,  hsl(197.8021978021978,52.60115606936417%,72%),  hsl(197.8021978021978,52.60115606936417%,52%));
+    border-color: hsl(197.8021978021978,52.60115606936417%,40%);
+}
